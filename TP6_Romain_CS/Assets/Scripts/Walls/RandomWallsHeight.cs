@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class RandomWallsHeight : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public static float Randomposition()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        float rdrange = Random.Range(-2f, 2f);
+        return rdrange;
     }
 }
+
+    
